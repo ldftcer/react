@@ -1,0 +1,82 @@
+.Contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+    padding: 75px 0px;
+
+}
+
+.Contactus>section {
+    width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Contactus>section:nth-of-type(2) {
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Contactus>section:nth-of-type(2)>.left,
+.Contactus>section:nth-of-type(2)>.right {
+    width: 50%;
+    border: 2px solid;
+}
+
+.Contactus>section:nth-of-type(2)>.left>iframe {
+    width: 100%;
+    height: 500px;
+    border: 0;
+
+}
+
+.Contactus>section:nth-of-type(2)>.right {
+    border: 2px solid green;
+    border-radius: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 0;
+    padding: 3% 10%;
+}
+
+.Contactus>section:nth-of-type(2)>.right>form>label {
+    width: 100%;
+    height: 90px;
+    color: rgb(95, 91, 91);
+}
+
+.Contactus>section:nth-of-type(2)>.right>form>input {
+    border: none !important;
+    border-bottom: 2px solid !important;
+    width: 100%;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 200px;
+    justify-content: center;
+}
+
+
+
+#comment {
+    height: 90px;
+    border-radius: 20px;
+}
+
+form>button {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background: rgb(35, 71, 35);
+}
